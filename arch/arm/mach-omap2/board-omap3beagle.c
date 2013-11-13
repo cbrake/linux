@@ -940,8 +940,18 @@ static void __init beagle_opp_init(void)
 	return;
 }
 
+static void omap3_beagle_poweroff_wait(void)
+{
+	printk("beagle: waiting for power off\n");
+	while(1) {
+		msleep(1*1000);
+	}
+}
+
 static void __init omap3_beagle_init(void)
 {
+	pm_power_off = omap3_beagle_poweroff_wait;
+
 	omap3_mux_init(board_mux, OMAP_PACKAGE_CBB);
 	omap3_beagle_init_rev();
 	omap3_beagle_i2c_init();
