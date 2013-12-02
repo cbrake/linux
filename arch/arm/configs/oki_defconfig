@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux/arm 2.6.39 Kernel Configuration
-# Wed Nov 13 14:47:47 2013
+# Wed Nov 27 16:22:51 2013
 #
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
@@ -2864,7 +2864,7 @@ CONFIG_RTC_INTF_DEV=y
 #
 # I2C RTC drivers
 #
-CONFIG_RTC_DRV_DS1307=y
+# CONFIG_RTC_DRV_DS1307 is not set
 # CONFIG_RTC_DRV_DS1374 is not set
 # CONFIG_RTC_DRV_DS1672 is not set
 # CONFIG_RTC_DRV_DS3232 is not set
