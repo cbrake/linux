@@ -161,14 +161,16 @@
 	status = "okay";
 };
 
+
 &fec2 {
 	pinctrl-names = "default";
-	pinctrl-0 = <&pinctrl_enet2>;
+	//pinctrl-0 = <&pinctrl_enet2>;
 	phy-mode = "rmii";
 	phy-handle = <&ethphy1>;
-	phy-reset-gpios=<&gpio1 10 1>;
+	//phy-reset-gpios=<&gpio1 10 1>;
 	phy-reset-duration=<100>;
 	status = "okay";
+
 	mdio {
 		#address-cells = <1>;
 		#size-cells = <0>;
@@ -211,7 +213,7 @@
 	pinctrl-0 = <&pinctrl_lcdif_dat
 		     &pinctrl_lcdif_ctrl>;
 	display = <&display0>;
-	status = "okay";
+	//status = "okay";
 
        display0: display {
 		bits-per-pixel = <16>;
@@ -264,6 +266,7 @@
 	status = "okay";
 };
 
+/*
 &tsc {
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_tsc>;
@@ -272,6 +275,7 @@
 	pre_charge_time = <0xfff>;
 	status = "okay";
 };
+*/
 
 /* Console Uart */
 &uart1 {
@@ -457,6 +461,13 @@
 				MX6UL_PAD_GPIO1_IO07__ENET2_MDC		0x1b0b0
 				MX6UL_PAD_GPIO1_IO06__ENET2_MDIO	0x1b0b0
 				MX6UL_PAD_SNVS_TAMPER4__GPIO5_IO04	0x1b0b0	/* BT Enable */
+				MX6UL_PAD_GPIO1_IO09__GPIO1_IO09	0x1b0b0 /* 485_en_1 */
+				MX6UL_PAD_GPIO1_IO02__GPIO1_IO02	0x1b0b0 /* 485_en_2 */
+				MX6UL_PAD_GPIO1_IO04__GPIO1_IO04	0x1b0b0 /* 485_en_3 */
+				MX6UL_PAD_GPIO1_IO05__GPIO1_IO05	0x1b0b0 /* 485_en_4 */
+				MX6UL_PAD_GPIO1_IO08__GPIO1_IO08	0x1b0b0 /* 485_en_5 */
+				MX6UL_PAD_JTAG_MOD__GPIO1_IO10		0x1b0b0 /* 485_en_6 */
+				MX6UL_PAD_SNVS_TAMPER9__GPIO5_IO09	0x1b0b0 /* sens_pwr_gate */
 			>;
 		};
 
@@ -484,7 +495,7 @@
 				MX6UL_PAD_ENET2_TX_DATA0__ENET2_TDATA00	0x1b0b0
 				MX6UL_PAD_ENET2_TX_DATA1__ENET2_TDATA01	0x1b0b0
 				MX6UL_PAD_ENET2_TX_CLK__ENET2_REF_CLK2	0x4001b031
-				MX6UL_PAD_JTAG_MOD__GPIO1_IO10		0x1b0b0
+				/*MX6UL_PAD_JTAG_MOD__GPIO1_IO10		0x1b0b0*/
 			>;
 		};
 

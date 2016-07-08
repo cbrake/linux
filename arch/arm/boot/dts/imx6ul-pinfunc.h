@@ -26,14 +26,14 @@
 #define	MX6UL_PAD_SNVS_TAMPER6__GPIO5_IO06				0x0034 0x02C0 0x0000 5 0
 #define	MX6UL_PAD_SNVS_TAMPER7__GPIO5_IO07				0x0038 0x02C4 0x0000 5 0
 #define	MX6UL_PAD_SNVS_TAMPER8__GPIO5_IO08				0x003C 0x02C8 0x0000 5 0
-#define	MX6UL_PAD_SNVS_TAMPER9__GPIO5_IO09				0x0040 0x02CC 0x0000 5 0
+#define	MX6UL_PAD_SNVS_TAMPER9__GPIO5_IO09				0x0040 0x02CC 0x0000 0x15 0
 
 #define	MX6UL_PAD_JTAG_MOD__SJC_MOD                              	0x0044 0x02D0 0x0000 0 0
 #define	MX6UL_PAD_JTAG_MOD__GPT2_CLK                             	0x0044 0x02D0 0x05A0 1 0
 #define	MX6UL_PAD_JTAG_MOD__SPDIF_OUT                            	0x0044 0x02D0 0x0000 2 0
 #define	MX6UL_PAD_JTAG_MOD__ENET1_REF_CLK_25M                    	0x0044 0x02D0 0x0000 3 0
 #define	MX6UL_PAD_JTAG_MOD__CCM_PMIC_RDY                         	0x0044 0x02D0 0x04C0 4 0
-#define	MX6UL_PAD_JTAG_MOD__GPIO1_IO10                           	0x0044 0x02D0 0x0000 5 0
+#define	MX6UL_PAD_JTAG_MOD__GPIO1_IO10                           	0x0044 0x02D0 0x0000 0x15 0
 #define	MX6UL_PAD_JTAG_MOD__SDMA_EXT_EVENT00                     	0x0044 0x02D0 0x0000 6 0
 #define	MX6UL_PAD_JTAG_TMS__SJC_TMS                              	0x0048 0x02D4 0x0000 0 0
 #define	MX6UL_PAD_JTAG_TMS__GPT2_CAPTURE1                        	0x0048 0x02D4 0x0598 1 0
@@ -84,7 +84,7 @@
 #define	MX6UL_PAD_GPIO1_IO01__USB_OTG1_OC                        	0x0060 0x02EC 0x0664 2 0
 #define	MX6UL_PAD_GPIO1_IO01__ENET2_REF_CLK2                     	0x0060 0x02EC 0x057C 3 0
 #define	MX6UL_PAD_GPIO1_IO01__MQS_LEFT                           	0x0060 0x02EC 0x0000 4 0
-#define	MX6UL_PAD_GPIO1_IO01__GPIO1_IO01                         	0x0060 0x02EC 0x0000 5 0
+#define	MX6UL_PAD_GPIO1_IO01__GPIO1_IO01                         	0x0060 0x02EC 0x0000 0x15 0
 #define	MX6UL_PAD_GPIO1_IO01__ENET1_1588_EVENT0_OUT              	0x0060 0x02EC 0x0000 6 0
 #define	MX6UL_PAD_GPIO1_IO01__SRC_EARLY_RESET                    	0x0060 0x02EC 0x0000 7 0
 #define	MX6UL_PAD_GPIO1_IO01__WDOG1_WDOG_B                       	0x0060 0x02EC 0x0000 8 0
@@ -93,7 +93,7 @@
 #define	MX6UL_PAD_GPIO1_IO02__USB_OTG2_PWR                       	0x0064 0x02F0 0x0000 2 0
 #define	MX6UL_PAD_GPIO1_IO02__ENET1_REF_CLK_25M                  	0x0064 0x02F0 0x0000 3 0
 #define	MX6UL_PAD_GPIO1_IO02__USDHC1_WP                          	0x0064 0x02F0 0x066C 4 0
-#define	MX6UL_PAD_GPIO1_IO02__GPIO1_IO02                         	0x0064 0x02F0 0x0000 5 0
+#define	MX6UL_PAD_GPIO1_IO02__GPIO1_IO02                         	0x0064 0x02F0 0x0000 0x15 0
 #define	MX6UL_PAD_GPIO1_IO02__SDMA_EXT_EVENT00                   	0x0064 0x02F0 0x0000 6 0
 #define	MX6UL_PAD_GPIO1_IO02__SRC_ANY_PU_RESET                   	0x0064 0x02F0 0x0000 7 0
 #define	MX6UL_PAD_GPIO1_IO02__UART1_DCE_TX                           	0x0064 0x02F0 0x0000 8 0
@@ -102,7 +102,7 @@
 #define	MX6UL_PAD_GPIO1_IO03__GPT1_COMPARE3                      	0x0068 0x02F4 0x0000 1 0
 #define	MX6UL_PAD_GPIO1_IO03__USB_OTG2_OC                        	0x0068 0x02F4 0x0660 2 0
 #define	MX6UL_PAD_GPIO1_IO03__USDHC1_CD_B                        	0x0068 0x02F4 0x0668 4 0
-#define	MX6UL_PAD_GPIO1_IO03__GPIO1_IO03                         	0x0068 0x02F4 0x0000 5 0
+#define	MX6UL_PAD_GPIO1_IO03__GPIO1_IO03                         	0x0068 0x02F4 0x0000 0x15 0
 #define	MX6UL_PAD_GPIO1_IO03__CCM_DI0_EXT_CLK                    	0x0068 0x02F4 0x0000 6 0
 #define	MX6UL_PAD_GPIO1_IO03__SRC_TESTER_ACK                     	0x0068 0x02F4 0x0000 7 0
 #define	MX6UL_PAD_GPIO1_IO03__UART1_DTE_TX                           	0x0068 0x02F4 0x0000 8 0
@@ -111,7 +111,7 @@
 #define	MX6UL_PAD_GPIO1_IO04__PWM3_OUT                           	0x006C 0x02F8 0x0000 1 0
 #define	MX6UL_PAD_GPIO1_IO04__USB_OTG1_PWR                       	0x006C 0x02F8 0x0000 2 0
 #define	MX6UL_PAD_GPIO1_IO04__USDHC1_RESET_B                     	0x006C 0x02F8 0x0000 4 0
-#define	MX6UL_PAD_GPIO1_IO04__GPIO1_IO04                         	0x006C 0x02F8 0x0000 5 0
+#define	MX6UL_PAD_GPIO1_IO04__GPIO1_IO04                         	0x006C 0x02F8 0x0000 0x15 0
 #define	MX6UL_PAD_GPIO1_IO04__ENET2_1588_EVENT0_IN               	0x006C 0x02F8 0x0000 6 0
 #define	MX6UL_PAD_GPIO1_IO04__UART5_DCE_TX                           	0x006C 0x02F8 0x0000 8 0
 #define	MX6UL_PAD_GPIO1_IO04__UART5_DTE_RX                           	0x006C 0x02F8 0x0644 8 2
@@ -120,7 +120,7 @@
 #define	MX6UL_PAD_GPIO1_IO05__ANATOP_OTG2_ID                     	0x0070 0x02FC 0x04BC 2 0
 #define	MX6UL_PAD_GPIO1_IO05__CSI_FIELD                          	0x0070 0x02FC 0x0530 3 0
 #define	MX6UL_PAD_GPIO1_IO05__USDHC1_VSELECT                     	0x0070 0x02FC 0x0000 4 0
-#define	MX6UL_PAD_GPIO1_IO05__GPIO1_IO05                         	0x0070 0x02FC 0x0000 5 0
+#define	MX6UL_PAD_GPIO1_IO05__GPIO1_IO05                         	0x0070 0x02FC 0x0000 0x15 0
 #define	MX6UL_PAD_GPIO1_IO05__ENET2_1588_EVENT0_OUT              	0x0070 0x02FC 0x0000 6 0
 #define	MX6UL_PAD_GPIO1_IO05__UART5_DCE_RX                           	0x0070 0x02FC 0x0644 8 3
 #define	MX6UL_PAD_GPIO1_IO05__UART5_DTE_TX                           	0x0070 0x02FC 0x0000 8 0
@@ -129,7 +129,7 @@
 #define	MX6UL_PAD_GPIO1_IO06__USB_OTG_PWR_WAKE                   	0x0074 0x0300 0x0000 2 0
 #define	MX6UL_PAD_GPIO1_IO06__CSI_MCLK                           	0x0074 0x0300 0x0000 3 0
 #define	MX6UL_PAD_GPIO1_IO06__USDHC2_WP                          	0x0074 0x0300 0x069C 4 0
-#define	MX6UL_PAD_GPIO1_IO06__GPIO1_IO06                         	0x0074 0x0300 0x0000 5 0
+#define	MX6UL_PAD_GPIO1_IO06__GPIO1_IO06                         	0x0074 0x0300 0x0000 0x15 0
 #define	MX6UL_PAD_GPIO1_IO06__CCM_WAIT                           	0x0074 0x0300 0x0000 6 0
 #define	MX6UL_PAD_GPIO1_IO06__CCM_REF_EN_B                       	0x0074 0x0300 0x0000 7 0
 #define	MX6UL_PAD_GPIO1_IO06__UART1_DCE_CTS                      	0x0074 0x0300 0x0000 8 0
@@ -139,7 +139,7 @@
 #define	MX6UL_PAD_GPIO1_IO07__USB_OTG_HOST_MODE                  	0x0078 0x0304 0x0000 2 0
 #define	MX6UL_PAD_GPIO1_IO07__CSI_PIXCLK                         	0x0078 0x0304 0x0528 3 0
 #define	MX6UL_PAD_GPIO1_IO07__USDHC2_CD_B                        	0x0078 0x0304 0x0674 4 1
-#define	MX6UL_PAD_GPIO1_IO07__GPIO1_IO07                         	0x0078 0x0304 0x0000 5 0
+#define	MX6UL_PAD_GPIO1_IO07__GPIO1_IO07                         	0x0078 0x0304 0x0000 0x15 0
 #define	MX6UL_PAD_GPIO1_IO07__CCM_STOP                           	0x0078 0x0304 0x0000 6 0
 #define	MX6UL_PAD_GPIO1_IO07__UART1_DCE_RTS                      	0x0078 0x0304 0x0620 8 1
 #define	MX6UL_PAD_GPIO1_IO07__UART1_DTE_CTS                      	0x0078 0x0304 0x0000 8 0
@@ -148,7 +148,7 @@
 #define	MX6UL_PAD_GPIO1_IO08__SPDIF_OUT                          	0x007C 0x0308 0x0000 2 0
 #define	MX6UL_PAD_GPIO1_IO08__CSI_VSYNC                          	0x007C 0x0308 0x052C 3 1
 #define	MX6UL_PAD_GPIO1_IO08__USDHC2_VSELECT                     	0x007C 0x0308 0x0000 4 0
-#define	MX6UL_PAD_GPIO1_IO08__GPIO1_IO08                         	0x007C 0x0308 0x0000 5 0
+#define	MX6UL_PAD_GPIO1_IO08__GPIO1_IO08                         	0x007C 0x0308 0x0000 0x15 0
 #define	MX6UL_PAD_GPIO1_IO08__CCM_PMIC_RDY                       	0x007C 0x0308 0x04C0 6 1
 #define	MX6UL_PAD_GPIO1_IO08__UART5_DCE_RTS                      	0x007C 0x0308 0x0640 8 1
 #define	MX6UL_PAD_GPIO1_IO08__UART5_DTE_CTS                      	0x007C 0x0308 0x0000 8 0
@@ -157,7 +157,7 @@
 #define	MX6UL_PAD_GPIO1_IO09__SPDIF_IN                           	0x0080 0x030C 0x0618 2 0
 #define	MX6UL_PAD_GPIO1_IO09__CSI_HSYNC                          	0x0080 0x030C 0x0524 3 1
 #define	MX6UL_PAD_GPIO1_IO09__USDHC2_RESET_B                     	0x0080 0x030C 0x0000 4 0
-#define	MX6UL_PAD_GPIO1_IO09__GPIO1_IO09                         	0x0080 0x030C 0x0000 5 0
+#define	MX6UL_PAD_GPIO1_IO09__GPIO1_IO09                         	0x0080 0x030C 0x0000 0x15 0
 #define	MX6UL_PAD_GPIO1_IO09__USDHC1_RESET_B                     	0x0080 0x030C 0x0000 6 0
 #define	MX6UL_PAD_GPIO1_IO09__UART5_DCE_CTS                      	0x0080 0x030C 0x0000 8 0
 #define	MX6UL_PAD_GPIO1_IO09__UART5_DTE_RTS                      	0x0080 0x030C 0x0640 8 2
